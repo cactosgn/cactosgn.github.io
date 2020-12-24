@@ -63,18 +63,6 @@ html {
   position: relative;
 }
 
-.linktree .image-rocket {
-  position: absolute;
-  left: -500px;
-  bottom: -200px;
-}
-
-.linktree .image-cacti {
-  position: absolute;
-  right: -450px;
-  top: -200px;
-}
-
 .linktree .container_relative .quote_caixa {
   margin-top: 40px;
 }

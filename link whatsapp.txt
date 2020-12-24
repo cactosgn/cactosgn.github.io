@@ -1,0 +1,1 @@
+api.whatsapp.com/send?1=pt_BR&phone=5581995471627&text=Oi,%20estou%20interessado(a)%20em%20seus%20produtos/serviços!
