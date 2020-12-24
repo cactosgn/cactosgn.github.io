@@ -1,0 +1,35 @@
+@media only screen and (max-width: 787px) {
+  
+  .intro_profile h1 {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+
+  .linktree {
+    margin-top: 20px;
+  }
+  
+  .linktree a {
+    display: block;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .intro_profile img {
+    height: 150px;
+    width: 150px;
+  }
+  .intro_profile ul li:after, .intro_profile ul li:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #003261;
+    margin: 6px auto 6px auto;
+    box-shadow: 2px 1px rgba(0,0,0, .1);
+  }
+
+  .linktree .container_relative .quote_caixa {
+    margin-top: 20px;
+  }
+}

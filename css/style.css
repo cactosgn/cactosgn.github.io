@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.intro_profile {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.intro_profile h1 {
+  margin: 40px 0 20px 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 48px;
+  color: #333;
+}
+
+.intro_profile ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+.linktree {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.linktree a {
+  text-align: left;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.linktree a h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 20px;
+}
+
+.linktree a p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.linktree a:hover {
+  border-color: #407bff;
+  color: #407bff;
+}
+
+.linktree a:hover > h3,
+.linktree a:hover > p {
+  color: #407bff;
+}
+
+.linketree .container_relative {
+  position: relative;
+}
+
+.linktree .image-rocket {
+  position: absolute;
+  left: -500px;
+  bottom: -200px;
+}
+
+.linktree .image-cacti {
+  position: absolute;
+  right: -450px;
+  top: -200px;
+}
+
+.linktree .container_relative .quote_caixa {
+  margin-top: 40px;
+}
+
+.linktree .container_relative .quote_caixa .quote_clientes p {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.linktree .container_relative .quote_caixa .quote_clientes cite {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+[data-anime] {
+  opacity: 0;
+}
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: transform .8s, opacity .8s;
+}
+
+.fadeInDown {
+  transform: translate3d(0,-20px,0);
+}
+
+[data-slide] {
+  position: relative;
+}
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
