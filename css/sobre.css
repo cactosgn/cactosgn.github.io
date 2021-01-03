@@ -1,3 +1,7 @@
+html, body{
+    overflow-x: hidden !important; 
+}
+
 .bg-about {
   background: #0270d4;
   height: 500px;
